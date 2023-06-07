@@ -1,1 +1,1 @@
-#Fun scripts to troll others
+# Fun scripts to troll others
