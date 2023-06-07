@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Defining the get_random_string function
 get() {
   local length=$1
   local chars=( {a..z} {A..Z} {0..9} )
@@ -10,7 +9,6 @@ get() {
   done
 }
 
-# Defining the generate_keys function
 gen_key() {
   for ((i=1; i<=10; i++)); do
     local keys=$((RANDOM % 85 + 20))
