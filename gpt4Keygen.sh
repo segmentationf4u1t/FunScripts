@@ -18,7 +18,7 @@ gen_key() {
     for ((d=0; d<unique; d++)); do
       if (( RANDOM % 30 == 1 )); then
         balance=$(awk -v val=$RANDOM 'BEGIN {print (val % 50000 - 1000) / 100}')
-        echo "gpt-4 sk-$(get 49) balance: $balance"
+        echo "gpt-4 sk-$(get 20)T3BlbkFJ$(get 20) balance: $balance"
       fi
     done
   done
